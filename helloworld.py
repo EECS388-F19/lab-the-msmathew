@@ -7,6 +7,6 @@ for i in range(2):
 	num = random.randint(1, 101)
 	print(num)
 	every += num
-print('Sum = ' + every)
+print('Sum = ' + str(every))
 every = every / 2
-print('Average = ' + every)
+print('Average = ' + str(every))
